@@ -7,6 +7,15 @@ body{
   background-size: cover;
 }
 
+body.splashpages{
+	
+	  background: url('skyline.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .custom-font1 {
 	color: white;
 }
@@ -27,4 +36,15 @@ font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 font-weight: 200;
 font-size: 40px;
 color: white;
+}
+
+.box h2, .box p {
+	color:white;
+}
+
+.my-wrapper h1,
+.my-wrapper h2, 
+.my-wrapper h3, 
+.my-wrapper p {
+	color:white;
 }
