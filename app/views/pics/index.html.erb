@@ -1,19 +1,19 @@
-<div class="my-wrapper">
+<div class="my-wrapper text-center">
 	<h1>My Pics</h1>
 
 	<% @pics.each do |pic| %>
-		<div class="box">
+		<div class="span3 shadowbox centered">
 			<h2>
 				Hour <%= pic.hour %>
 			</h2>
 
-			<h3>
+			<h3 class="custom-font3">
 				I feel <%= pic.emotion %>
 			</h3>
 
-			<p>
+			<h3  class="custom-font3">
 				I learned that <%= pic.learned %>
-			</p>
+			</h3>
 		</div>
 	<% end %>
 </div>

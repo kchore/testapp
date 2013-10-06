@@ -5,6 +5,9 @@ Testapp::Application.routes.draw do
   # Sample of regular route:
     root :to=> 'staticpages#index'
     resources :pics
+
+
+    get 'video' => 'staticpages#video'
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
 
